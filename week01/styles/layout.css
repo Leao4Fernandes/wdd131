@@ -6,7 +6,7 @@
 }
 
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
 }
 
@@ -19,7 +19,7 @@ body {
 header,
 footer {
     background: var(--secondary-color);
-    padding: 2rem;
+    padding-top: auto;
     grid-column: 1 / 4;
 }
 
@@ -34,8 +34,8 @@ main {
 }
 
 nav {
-    margin: 0;
-    max-width: 100%;
+    max-width: 1fr;
+    background: var(--forth-color);
 }
 
 .navigation {
@@ -53,7 +53,7 @@ nav {
 .navigation a {
     font-weight: 700;
     display: block;
-    padding: 0.75rem;
+    padding: 2vh;
     text-decoration: none;
     text-align: center;
 }
