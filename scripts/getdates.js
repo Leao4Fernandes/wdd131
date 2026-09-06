@@ -1,3 +1,10 @@
-const lastModified = document.querySelector("#lastModified");
+const lastModified = document.getElementById("lastModified");
+
 const today = new Date();
-lastModified.innerHTML = `Last Modified: <p id="lastModified">${new Intl.DateTimeFormat('en-US').format(today)}</p>`;
+
+lastModified.innerHTML = `Today is <span class="highlight">${new Intl.DateTimeFormat(
+    "en-US",
+    {
+        dateStyle: "full"
+    }
+).format(today)}</span>`;
