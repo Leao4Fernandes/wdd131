@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD 131 - Dynamic Web Fundamentals - Leão Fernandes</title>
+
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Leão Fernandes - Personal page and projects">
+
+    <meta name="author" content="Leão Fernandes">
+
+    <link rel="stylesheet" href="./styles/base.css">
+
+    <script defer src="scripts/getdates.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <span id="course-title">
+            WDD 131 - Dynamic Web Fundamentals
+        </span>
+
+        <nav>
+            <a href="">LinkedIn</a>
+
+            <a href="https://byupw.instructure.com/">
+                Canvas
+            </a>
+
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">
+                Scripture
+            </a>
+
+            <a href="">
+                Final Project
+            </a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <h1>Leão Fernandes</h1>
+
+        <section class="cards">
+
+            <!-- ABOUT ME CARD -->
+            <section class="card">
+
+                <h3 class="headercard">
+                    About Me
+                </h3>
+
+                <div class="about-content">
+
+                    <p>
+                        Hello, my name is Leão, but people call me Leo.
+                        I was born in Angola but now I am living in Portugal,
+                        currently I am working as a client manager in a credit
+                        company. I enjoy playing rugby and football, I love to
+                        learn new languages and travel.
+                    </p>
+
+                    <img src="./images/selfpicture.jpg" alt="Personal photo of the author of the website">
+
+                </div>
+
+
+                <h3 class="country-title">
+                    Lisbon, Portugal
+                </h3>
+
+
+                <div class="country-content">
+
+                    <figure>
+
+                        <img src="./images/Flag_of_Portugal_(official).svg.jpg" alt="Portugal national flag">
+
+                        <figcaption>
+                            National flag of Portugal
+                        </figcaption>
+
+                    </figure>
+
+
+                    <p>
+                        Portugal has some of the oldest borders in Europe
+                        and produces over half of the world's cork.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- WEB RESOURCES CARD -->
+            <section class="card">
+
+                <h3 class="headercard">
+                    Web Dev Resources
+                </h3>
+
+                <div class="resources">
+
+                    <a href="https://github.com/">
+                        +GitHub
+                    </a>
+
+                    <a href="https://fonts.google.com/">
+                        +Google Fonts
+                    </a>
+
+                    <a href="https://codepen.io/BYU-Idaho/pen/azoRxXX">
+                        +CSS Flex Menu
+                    </a>
+
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © <span id="currentyear">2026</span>
+            ❖ Leão Fernandes ❖ Portugal Lisbon
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+
+
+    <script>
+        document.getElementById("lastModified").textContent =
+            `Last Modified: ${document.lastModified}`;
+    </script>
+
+</body>
+
+</html>
