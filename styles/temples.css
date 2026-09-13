@@ -105,7 +105,7 @@ figcaption {
     color: var(--background-color);
 }
 
-header h1,
+.header-content,
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
