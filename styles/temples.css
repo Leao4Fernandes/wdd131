@@ -50,15 +50,6 @@ a {
     }
 }
 
-main {
-    padding: 2rem;
-}
-
-main h1 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
 .temple-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
