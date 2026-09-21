@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description"
+        content="Page of a place I would like to visit in the future, some extra data and weather date about the place">
+    <meta name="Author" content="Leão Fernandes">
+    <link rel="stylesheet" href="./styles/places.css">
+    <script src="./scripts/places.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Japan</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="./images/Japan-landscape.webp" alt="mount fuji water view and hyper speed train">
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+            <table>
+                <tr>
+                    <td>Area:</td>
+                    <td>378.000 km²</td>
+                </tr>
+
+                <tr>
+                    <td>Population:</td>
+                    <td>123 million</td>
+                </tr>
+
+                <tr>
+                    <td>Capital:</td>
+                    <td>Tokyo</td>
+                </tr>
+
+                <tr>
+                    <td>Language:</td>
+                    <td>Japanese</td>
+                </tr>
+
+                <tr>
+                    <td>Currency:</td>
+                    <td>Japanese yen (JPY/¥)</td>
+                </tr>
+
+                <tr>
+                    <td>Time Zone</td>
+                    <td>UTC+9</td>
+                </tr>
+
+                <tr>
+                    <td>Dialing Code:</td>
+                    <td>+81</td>
+                </tr>
+
+                <tr>
+                    <td>Internet TLD</td>
+                    <td>.jp</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="weather">
+            <h2>Weather</h2>
+            <img src="./images/weather-icon (2).svg" alt="weather icon with a rainy cloud">
+            <table>
+                <tr>
+                    <td>Temperature:</td>
+                    <td id="temperature"></td>
+                </tr>
+
+                <tr>
+                    <td>Condition:</td>
+                    <td>Rainy</td>
+                </tr>
+
+                <tr>
+                    <td>Wind:</td>
+                    <td id="wind"></td>
+                </tr>
+
+                <tr>
+                    <td>Wind Chill</td>
+                    <td id="windChill"></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+
+        <p>
+            © <span id="currentyear">2026</span>
+            ❖ Leão Fernandes ❖ Portugal Lisbon
+        </p>
+
+        <p id="lastModified"></p>
+
+    </footer>
+</body>
+
+</html>

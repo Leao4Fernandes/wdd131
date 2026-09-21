@@ -1,0 +1,154 @@
+:root {
+    --bg: #DCE4EA;
+    --section: #F5F3EF;
+    --text-s: #66727C;
+    --heading: #1F302F;
+    --buttons: #9E3B3B;
+    --font-family: "Noto Sans", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--heading);
+    color: var(--text-s);
+}
+
+.hero img {
+    width: 100%;
+    height: 1000px;
+}
+
+.data {
+    position: absolute;
+    left: 2rem;
+    top: 7rem;
+    font-size: 20px;
+    padding: 1rem;
+    padding-top: 4rem;
+    background-color: var(--bg);
+    text-align: center;
+}
+
+.data h2 {
+    position: absolute;
+    top: 1rem;
+    background-color: var(--heading);
+    color: var(--text-s);
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 300px;
+}
+
+.weather {
+    position: absolute;
+    right: 2rem;
+    bottom: 0;
+    font-size: 20px;
+    padding: 1rem;
+    padding-top: 4rem;
+    background-color: var(--heading);
+    text-align: center;
+    color: var(--text-s);
+}
+
+.weather h2 {
+    position: absolute;
+    top: 1rem;
+    background-color: var(--text-s);
+    color: var(--bg);
+    padding: .5rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    padding-right: 1rem;
+}
+
+.weather img::after {
+    content: "";
+}
+
+.weather img {
+    content: "";
+    width: 100px;
+    height: auto;
+}
+
+/* Mobile phone view */
+
+@media screen and (max-width: 768px) {
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .data,
+    .weather {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .data h2,
+    .weather h2 {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin: 0 0 1rem 0;
+        padding: 0.5rem;
+    }
+
+    .data {
+        padding: 1rem;
+    }
+
+    .weather {
+        padding: 1rem;
+    }
+
+    .data table {
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    .data td {
+        padding: 0.25rem;
+        text-align: center;
+    }
+
+    .weather table {
+        width: 100%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    .weather td {
+        padding: 0.25rem;
+        text-align: center;
+    }
+
+}
+
+footer {
+    background-color: var(--heading);
+    color: var(--text-s);
+    text-align: center;
+    padding: 1.5rem;
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
