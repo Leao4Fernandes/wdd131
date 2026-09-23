@@ -18,7 +18,10 @@
     </header>
     <main>
         <div class="hero">
-            <img srcset="./images/Japan-landscape.webp" alt="mount fuji water view and hyper speed train">
+            <picture>
+                <source media="(max-width: 768px)" srcset="images/japan-mobile.webp">
+                <img srcset="./images/Japan-landscape.webp" alt="mount fuji water view and hyper speed train">
+            </picture>
         </div>
         <div class="data">
             <h2>Data</h2>
@@ -67,7 +70,9 @@
 
         <div class="weather">
             <h2>Weather</h2>
+            <div class="weather-icon">
             <img src="./images/weather-icon.svg" alt="weather icon with a rainy cloud">
+            </div>
             <table>
                 <tr>
                     <td>Temperature:</td>
