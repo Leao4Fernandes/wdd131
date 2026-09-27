@@ -6,9 +6,10 @@
 
 
 :root {
-    --primary-color: #0b3d2e;
+    --primary-color: #233b10;
     --secondary-color: #ffa500;
-    --third-color: #1b2f23;
+    --third-color: #00ff66;
+    --fourth-color: #000000;
     --text-color: #f5f6f2;
     --font-family: 'Roboto', sans-serif;
 }
@@ -40,8 +41,8 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem;
-    background-color: var(--primary-color);
+    padding: 1rem;
+    background-color: var(--fourth-color);
     color: var(--text-color);
 }
 
@@ -51,7 +52,7 @@ nav a {
 
     text-decoration: none;
 
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 

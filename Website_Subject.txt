@@ -1,0 +1,3 @@
+Subject: Rugby for Beginners
+Content: The website will introduce the sport of rugby to beginners, explaining the basic rules, positions, scoring system, equipment, training, and physical skills needed to play.
+Reason: I chose this subject because rugby is one of my favorite sports and I am interested in improving my own skills. Creating this website would allow me to combine one of my personal interests with what I am learning about web development.
