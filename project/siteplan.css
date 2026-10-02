@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #176B3A;
+    --secondary-color: #0D3B26;
+    --accent-color: #F2C14E;
+    --background-color: #F5F5F0;
+    --text-color: #F5F5F0;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+}
+
+button, nav a {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+}

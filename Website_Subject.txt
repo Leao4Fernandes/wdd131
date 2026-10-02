@@ -1,3 +1,30 @@
 Subject: Rugby for Beginners
 Content: The website will introduce the sport of rugby to beginners, explaining the basic rules, positions, scoring system, equipment, training, and physical skills needed to play.
 Reason: I chose this subject because rugby is one of my favorite sports and I am interested in improving my own skills. Creating this website would allow me to combine one of my personal interests with what I am learning about web development.
+
+Domain: Intro-to-portugal-rugby
+Purpose: To teach and make rugby aware for every person.
+Scenario: a young man is looking for a rugby club and some rugby instructions to start playing in Lisbon
+
+
+:root {
+    --primary-color: #176B3A;
+    --secondary-color: #0D3B26;
+    --accent-color: #F2C14E;
+    --background-color: #F5F5F0;
+    --text-color: #17221B;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+}
+
+button, nav a {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+}
