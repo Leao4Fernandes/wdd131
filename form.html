@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./styles/form.css">
     <script src="./scripts/form.js" defer></script>
 </head>
+
 <body>
 
     <header>
@@ -25,7 +27,7 @@
 
             <label for="star-rating">Star Rating</label>
             <div class="star-rating">
-                
+
                 <input type="radio" name="stars" id="star-a" value="5" required>
                 <label for="star-a"></label>
                 <input type="radio" name="stars" id="star-b" value="4" required>
@@ -40,18 +42,29 @@
 
             <label for="date-of-installation">Date of Installation</label>
             <input type="date" id="date-of-installation" name="date-of-installation">
-            
+
             <label id="checkbox" name="checkbox">Which features did you find useful in the product?
                 (check all that apply)
             </label>
-            <label for="durability">Durability</label>
-            <input type="checkbox" value="1" id="durability" name="durability">
-            <label for="ease-of-use">Ease of use</label>
-            <input type="checkbox" value="1" id="ease-of-use" name="ease-of-use">
-            <label for="performance">Performance</label>
-            <input type="checkbox" value="1" id="performance" name="performance">
-            <label for="design">Design</label>
-            <input type="checkbox" value="1" id="design" name="design">
+            <div class="checkbox-option">
+                <label for="durability">Durability</label>
+                <input type="checkbox" value="1" id="durability" name="durability">
+            </div>
+
+            <div class="checkbox-option">
+                <label for="ease-of-use">Ease of use</label>
+                <input type="checkbox" value="1" id="ease-of-use" name="ease-of-use">
+            </div>
+
+            <div class="checkbox-option">
+                <label for="performance">Performance</label>
+                <input type="checkbox" value="1" id="performance" name="performance">
+            </div>
+
+            <div class="checkbox-option">
+                <label for="design">Design</label>
+                <input type="checkbox" value="1" id="design" name="design">
+            </div>
 
             <div class="writtenReview">
                 <label for="written-review">Written review</label>
@@ -78,4 +91,5 @@
     </footer>
 
 </body>
+
 </html>
