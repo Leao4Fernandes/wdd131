@@ -30,6 +30,17 @@ main form {
     gap: 10px;
 }
 
+.checkbox-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox-option input {
+    width: 20px;
+    height: 20px;
+}
+
 .writtenReview textarea {
     width: 100%;
     height: 150px;
