@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form project</title>
-    <meta name="description" content="page with a form to review projects">
+    <meta name="description" content="product page review, to give feedback about the product, and to give a star rating, for analyses and improvements.">
     <meta name="author" content="Leão Fernandes">
     <link rel="stylesheet" href="./styles/form.css">
     <script src="./scripts/form.js" defer></script>
@@ -25,7 +25,7 @@
                 <option value="" disabled selected>Select a product..</option>
             </select>
 
-            <label for="star-rating">Star Rating</label>
+            <label>Star Rating</label>
             <div class="star-rating">
 
                 <input type="radio" name="stars" id="star-a" value="5" required>
@@ -43,7 +43,7 @@
             <label for="date-of-installation">Date of Installation</label>
             <input type="date" id="date-of-installation" name="date-of-installation">
 
-            <label id="checkbox" name="checkbox">Which features did you find useful in the product?
+            <label id="checkbox">Which features did you find useful in the product?
                 (check all that apply)
             </label>
             <div class="checkbox-option">
@@ -71,8 +71,8 @@
                 <textarea name="written-review" id="written-review"></textarea>
             </div>
 
-            <label for="name">Your name</label>
-            <input type="name" id="fname" name="name">
+            <label for="fname">Your name</label>
+            <input type="text" id="fname" name="fname">
 
             <input type="submit" value="Post review">
 
