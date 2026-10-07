@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #176B3A;
+    --secondary-color: #0D3B26;
+    --accent-color: #F2C14E;
+    --background-color: #F5F5F0;
+    --text-color: #F5F5F0;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 800;
+}
+
+button,
+nav a {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+}
+
+/* Header */
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+header nav {
+    padding: 0.5rem;
+    display: block;
+}
+
+header nav a {
+    padding: 2rem;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+/* Main */
+
+.hero-img {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.hero-img img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.hero-img::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(13 59 38 / 0.60);
+    z-index: 1;
+}
+
+/* Text */
+
+.hero-label,
+.hero-img h1,
+.hero-description {
+    position: absolute;
+    z-index: 2;
+    left: 8%;
+    color: var(--text-color);
+}
+
+.hero-label {
+    top: 25%;
+    left: 9%;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: var(--accent-color);
+}
+
+.hero-img h1 {
+    top: 30%;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: clamp(3rem, 6vw, 7rem);
+    line-height: 0.85;
+    font-weight: 800;
+    margin: 0;
+}
+
+.hero-description {
+    top: 58%;
+    left: 9%;
+    max-width: 500px;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+/* Features content */
+
+.feature-teams {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgb(213, 212, 212);
+    text-align: center;
+    gap: 5rem;
+}
+
+.feature-teams img {
+    width: 300px;
+    height: auto;
+    margin: 1rem;    
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Mobile view */
+
+.hamburguer {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .hamburguer {
+        display: block;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: var(--text-color);
+        cursor: pointer;
+    }
+
+    .navMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .navMenu a {
+        display: none;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        margin: 0;
+    }
+
+    .navMenu.open a {
+        display: block;
+    }
+
+    .feature-teams img {
+        width: 100px;
+    }
+
+}
+
+/* teams page */
+.teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgb(213, 212, 212);
+    text-align: center;
+    gap: 5rem;
+}
