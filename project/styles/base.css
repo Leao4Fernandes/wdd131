@@ -197,4 +197,6 @@ footer {
     background-color: rgb(213, 212, 212);
     text-align: center;
     gap: 5rem;
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
 }
