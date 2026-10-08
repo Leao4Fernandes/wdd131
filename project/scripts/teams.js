@@ -87,13 +87,18 @@ menuButton.addEventListener("click", () => {
     }
 });
 
-let teamsview = document.querySelector(".teams");
+
+const teamsview = document.querySelector(".teams");
 
 rugbyTeams.forEach(teamSelected => {
 
+    const card = document.createElement("article");
+    card.classList.add("team-card");
+
     const img = document.createElement("img");
     img.src = teamSelected.image;
-    img.alt = `${teamSelected.name} rugby team`;
+    img.alt = `${teamSelected.name} rugby team logo`;
+    img.loading = "lazy";
 
     const h2 = document.createElement("h2");
     h2.textContent = teamSelected.name;
@@ -101,8 +106,9 @@ rugbyTeams.forEach(teamSelected => {
     const city = document.createElement("p");
     city.textContent = teamSelected.city;
 
-    teamsview.appendChild(img);
-    teamsview.appendChild(h2);
-    teamsview.appendChild(city);
+    card.appendChild(img);
+    card.appendChild(h2);
+    card.appendChild(city);
 
+    teamsview.appendChild(card);
 });
