@@ -13,62 +13,62 @@ const rugbyTeams = [
     {
         name: "Benfica",
         city: "Lisboa",
-        image: "images/benfica-removebg-preview.png"
+        image: "../images/benfica-removebg-preview.png"
     },
     {
         name: "Cascais",
         city: "Cascais",
-        image: "images/cascais-removebg-preview.png"
+        image: "../images/cascais-removebg-preview.png"
     },
     {
         name: "Direito",
         city: "Lisboa",
-        image: "images/direito-removebg-preview.png"
+        image: "../images/direito-removebg-preview.png"
     },
     {
         name: "Belenenses",
         city: "Lisboa",
-        image: "images/belenenses-removebg-preview.png"
+        image: "../images/belenenses-removebg-preview.png"
     },
     {
         name: "CDUL",
         city: "Lisboa",
-        image: "images/cdul-removebg-preview.png"
+        image: "../images/cdul-removebg-preview.png"
     },
     {
         name: "São Miguel",
         city: "Lisboa",
-        image: "images/saomiguel-removebg-preview.png"
+        image: "../images/saomiguel-removebg-preview.png"
     },
     {
         name: "Agronomia",
         city: "Lisboa",
-        image: "images/agronomia-removebg-preview.png"
+        image: "../images/agronomia-removebg-preview.png"
     },
     {
         name: "Técnico",
         city: "Lisboa",
-        image: "images/tecnico-removebg-preview.png"
+        image: "../images/tecnico-removebg-preview.png"
     },
     {
         name: "Académica",
         city: "Coimbra",
-        image: "images/academica-removebg-preview.png"
+        image: "../images/academica-removebg-preview.png"
     },
     {
         name: "CDUP",
         city: "Porto",
-        image: "images/cdup-removebg-preview.png"
+        image: "../images/cdup-removebg-preview.png"
     },
     {
         name: "Santarém",
         city: "Santarém",
-        image: "images/santarem-removebg-preview.png"
+        image: "../images/santarem-removebg-preview.png"
     },
     {
         name: "AR Setúbal",
         city: "Setúbal",
-        image: "images/setubal-removebg-preview.png"
+        image: "../images/setubal-removebg-preview.png"
     }
 ];
 
